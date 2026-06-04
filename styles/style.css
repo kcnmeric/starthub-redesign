@@ -8,7 +8,7 @@
   --text-main: #334155;
   --text-muted: #64748b;
   --white: #ffffff;
-
+  --light-blue: #f1f5f9;
   --font-main: "Inter", sans-serif;
 }
 
@@ -179,6 +179,7 @@ nav a:hover {
   justify-content: space-between;
   gap: 60px;
   padding: 0 20px;
+  background-color: var(--white);
 }
 
 .hero article {
@@ -274,16 +275,18 @@ nav a:hover {
 
 .services-grid {
   display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  flex-wrap: nowrap;
+  justify-content: center;
   gap: 30px;
-  margin-top: 50px;
+  margin: 50px auto;
+  max-width: 1200px;
 }
 
 .services {
-  max-width: 1200px;
   margin: 120px auto;
-  padding: 0 20px;
+  padding: 50px 20px;
   text-align: center;
+  background-color: var(--bg-light);
 }
 
 .services h2 {
@@ -304,14 +307,14 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 350px;
   cursor: pointer;
   overflow: hidden;
+  min-height: 450px;
 }
 
 .service-card p {
   opacity: 0;
-  max-height: 0px;
+  max-height: 0;
   visibility: hidden;
   transform: translateY(20px);
   transition: all 0.4s ease;
@@ -370,4 +373,83 @@ nav a:hover {
   font-size: 1rem;
   color: var(--text-muted);
   line-height: 1.6;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  background-color: var(--white);
+  padding: 100px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-image {
+  flex: 1;
+  margin: 0;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  display: block;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.subtitle {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: var(--secondary);
+  margin-bottom: 25px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.3;
+}
+
+.social-links a:hover img {
+  opacity: 0.7;
 }
