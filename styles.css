@@ -309,7 +309,6 @@ nav a:hover {
   overflow: hidden;
 }
 
-.service-card figcaption,
 .service-card p {
   opacity: 0;
   max-height: 0px;
