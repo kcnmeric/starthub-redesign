@@ -1,11 +1,10 @@
-```md
 # Start Hub Digital Website Redesign
 
 A modern and responsive one-page website redesign concept for **Start Hub Digital**, built with HTML and CSS.
 
 This project focuses on improving the visual structure, navigation experience, responsive layout, and overall presentation of a digital agency website.
 
-## Live Demo
+## Preview
 
 [View Live Website](https://kcnmeric.github.io/starthub-redesign/)
 
@@ -67,7 +66,7 @@ The about section explains the brand’s role as a strategic digital solution pa
 
 ### Why Choose Us
 
-This section highlights the key reasons to work with the agency, including modern design, result-oriented thinking, and end-to-end process management.
+This section highlights key reasons to work with the agency, including modern design, result-oriented thinking, and end-to-end process management.
 
 ### Process Section
 
@@ -89,10 +88,6 @@ While building this project, I practiced:
 - Using Git and GitHub for version control
 - Publishing a project with GitHub Pages
 
-## Screenshots
-
-Screenshots will be added soon.
-
 ## Project Status
 
 Completed as a portfolio redesign project.
@@ -102,5 +97,4 @@ Completed as a portfolio redesign project.
 **Meriç Koçan**
 
 - GitHub: [kcnmeric](https://github.com/kcnmeric)
-- Portfolio / Instagram: [merickocan.dev](https://www.instagram.com/merickocan.dev/)
-```
+- Instagram: [merickocan.dev](https://www.instagram.com/merickocan.dev/)
